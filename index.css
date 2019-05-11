@@ -1,3 +1,11 @@
+#faq .card span {
+    color: black;
+    margin-left: 10px
+}
+
+.card-title {
+    text-decoration: none !important;
+}
 .float-left {
     float: left;
 }
