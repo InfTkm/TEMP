@@ -18,15 +18,22 @@ body {
 .banner-container {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .banner {
-    min-width: 100vw
+    max-width: 20vw;
 }
 
+.color-e05555 {
+    color: #e05555;
+}
+.color-e5b85e {
+    color: #e5b85e;
+}
 .about {
     padding-bottom: 75px;
 }
