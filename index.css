@@ -1,3 +1,12 @@
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
 #faq .card span {
     color: black;
     margin-left: 10px
@@ -118,4 +127,68 @@ table.day-schedule tr th {
 
 table.day-schedule tr.day th {
     font-size: 20px;
+}
+
+
+.transform-board{
+    overflow: hidden;
+    position: relative;
+}
+
+.transform-board,.pages-container,.page-container {
+    height: 100%;
+}
+
+.pages-container{
+    transform: translate3d(0px, 0%, 0px);
+}
+
+.page-container {
+    height: 100%;
+    user-select: none;
+}
+
+.page-content-wrap,.page-wrap{
+	position: relative;
+    height: 100%;
+}
+
+.page-wrap {
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 0;
+}
+
+.page-content-wrap{
+	width: 100%;
+    padding: 60px 0 80px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.page-content{
+	height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
 }
