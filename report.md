@@ -67,5 +67,5 @@ This is a front end change, so it supposedly does not affect the correctness and
 
 ### Demo
 [YouTube Link](https://youtu.be/xmY6yLb7gu4)  
-[Link to PR](https://github.com/mozilla/code-coverage/pull/454)
+[Link to PR](https://github.com/mozilla/code-coverage/pull/454)  
 [In Action](http://cc.bitbit.cloud)
